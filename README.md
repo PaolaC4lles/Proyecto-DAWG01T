@@ -1,5 +1,6 @@
 # Proyecto-DAWG01T
 
+Integrantes:
 Mauricio Enrique Herrera Rico HR230334
 Elias Daniel Franco Rodriguez RF230727
 Juan Jose Perez Muñoz PM230897
