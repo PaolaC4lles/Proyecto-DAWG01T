@@ -275,8 +275,42 @@ footer {
 /* Calculadora */
 
 
-/*  Dieta */
+ /*Inicio de paginas de rutinas*/
 
+ .imgRutinas{
+  width: 100%;
+}
 
+.imgRutinas img{
+  text-align: center;
+}
 
-/*  Dieta */
+.imgRutinas h2{
+  text-align: center;
+}
+
+.imgFit{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContenedorImgs{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgFitness {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+
+h2{
+  color: #ffff;
+}
+
+/*  Rutina */
