@@ -1,3 +1,6 @@
+*{
+  font-family: 'Poppins';
+}
 body {
     margin: 0;
     padding: 0;
@@ -8,11 +11,10 @@ body {
   }
   
   nav {
-    font-family: Arial, sans-serif;
     background-color: #3C4557;
     height: 10%;
     width: 100%;
-    background-image: url('../IMG/icon.png');
+    background-image: url('../IMG/Logo.png');
     background-size: 80px;
     background-repeat: no-repeat;
     background-position: calc(100% - 3%) center;
@@ -43,8 +45,6 @@ body {
     background-color: #555;
   }
 
-  
-
   .Contenedor {
     display: flex;
     background-color: #3C4557;
@@ -58,7 +58,7 @@ body {
   
   .img {
     width: 40%;
-    height: 100%; 
+    height: 110%; 
     border-radius: 20px;
   }
   
@@ -66,31 +66,217 @@ body {
     flex: 1;
     padding: 55px;
     font-size: 30px;
-    font-family: Arial;
     text-align: center;
     color: #ffff;
   }
 
+/* Calculadora */
+.titulo{
+  padding-top: 50px;
+  width: 72%;
+  text-align: center;
+  padding-left: 28%;
+}
+h1{
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #6A6767;
+}
+/*Estilos de ingresar datos*/
+.datos{
+  padding-top: 20px;
+  width: 85%;
+  text-align: center;
+  padding-left: 37%;
+}
+.datosPadre1{
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+.ingresaDato{
+  padding-top: 20px;
+  padding-right: 36%;
+}
+.datosPadre2{
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+h2{
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #236886;
+  border-radius: 10px;
+}
+#kg, #m{
+  background-color: #2DA9B1;
+  border-radius: 10px;
+  padding: 13.5px;
+  color: #FFF;
+  border: #fff 0px solid;
+}
+.resultado1{
+  margin-top: 40px;
+  padding: 10px;
+  vertical-align: text-bottom;
+  background-color: #2DA9B1;
+}
+h3{
+  color: rgb(255, 255, 255);
+}
+.resultado2{
+  padding: 10px;
+  background-color: #236886;
+  margin-bottom: 30px
+}
+/*Estilo de letra anclado a googles fonts*/
+body{
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Poppins';
+}
+div{
+  margin-left: 0px;
+  padding-bottom: 20px;
+}
+/*Estilo de botones*/
+.boton{
+background: #6A6767;
+cursor: pointer;
+border: none;
+padding: 16px 32px;
+color: #FFF;
+font-size: 24px;
+font-weight: bold;
+position: relative;
+border-radius: 12px;
+transition: all .50s ease;
+}
+.boton:hover{
+  background: #303030;
+}
+
+/* Estilo de la tabla */
+#tableP{
+  margin-top: 30px;
+  margin-left: 20%;
+}
+.tabla{
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  color: rgb(221, 221, 221);
+}
+/* Estilo de las celdas de encabezado (th) */
+.tabla th {
+  background-color: #236886;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+/* Estilo de las celdas de datos (td) */
+.tabla td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+/* Estilo de filas alternas para mayor legibilidad */
+.tabla tr:nth-child(even) {
+  background-color: #2a939b41;
+}
+/* Estilo cuando se pasa el mouse sobre las filas */
+.tabla tr{
+  transition: .5s;
+}
+.tabla tr:hover {
+  background-color: #7b8d99;
+  color: white;
+  cursor: pointer;
+  transition: .5s;
+}
+
+/* Colocar tanto la tabla como los links en la misma línea*/
+.particion{
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.tabla2{
+  width: 50%;
+  max-width: 600px;
+  margin: 0 auto;
+  color: rgb(163, 163, 163);
+}
+.boton1{
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #236886;
+  border: #fff 0px solid;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 15px;
+
+ }
+
+ .boton2{
+  width: 500px;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #6A6767;
+  border: #fff 0px solid;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all .50s ease;
+  margin: 15px;
+ }
+ .boton2:hover{
+     background: #303030;
+ }
+/*Estilos para el pie de página*/
+
+
 footer {
-    background-color: #555;
-    color: white;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 10%;
-  }
+  background-color: #555;
+  color: white;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 12%;
+}
+
+.F-texto, .Redes {
+  padding-top: 1%;
+  flex: 1; 
+  text-align: center;
+  font-size: 30px;
+}
+
+.Redes img {
+  padding-top: 1%;
+  width: 50px;
+  margin: 0 20px; 
   
-  .F-texto, .Redes {
-    flex: 1; 
-    text-align: center;
-    font-size: 30px;
-  }
-  
-  .Redes img {
-    width: 50px;
-    margin: 0 10px; 
-  }
-  
+}
+
+/* Calculadora */
+
+
+/*  Dieta */
+
+
+
+/*  Dieta */

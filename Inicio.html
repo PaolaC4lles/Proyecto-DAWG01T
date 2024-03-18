@@ -3,26 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="IMG/icon.png" type="image/x-icon">
   <title>Inicio</title>
   <link rel="stylesheet" href="CSS/Style.css">
+  <link rel="stylesheet" href="CSS/responsive_nvar.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="IMG/Logo.png" type="image/x-icon">
 </head>
 <body>
 
-    <header>
-     <nav>
-        <ul>
-          <li><a href="#">Login</a></li>
-          <li><a href="#">Calculadora IMC</a></li>
-        </ul>
-    </nav>
+  <header>
+    <img class="logo" src="img/icon.png" alt="¡Cuida tu salud!">
+    <ul class="navbar">
+        <li><a href="login.html">Inicio</a></li>
+    </ul>
 
-    <script src="JS/responsive_nvar.js">
-    </script>
-    </header>
+    <ul class="navbar">
+      <li><a href="calculadora.html">Calculadora IMC</a></li>
+  </ul>
+
+    <div class="main">
+        <div class="bx bx-menu" id="menu-icon"></div><br>
+    </div>
+</header>
+<div class="headerAbajo"></div>
+<br>
+
+<!--js link--->
+<script type="text/javascript" src="js/responsive_nvar.js"></script>  
 
     <div class="Contenedor">
-        <img src="IMG/img-1.jpeg"Imagen 1" class="img">
+        <img src="IMG/img-1.jpeg" class="img">
         <div class="Texto">
             <p>Conoce los alimento que te ayudaran a mantener tu salud.</p>
         </div>
@@ -40,16 +52,15 @@
         </div>
       </div>
      
-  <footer>
+      <footer>
         
-    <div class="F-texto"><p>Copyright© 2024</p></div>
-
-    <div class="Redes">
-      <a href=""><img src="IMG/facebook.png" alt="Facebook"></a>
-      <a href=""><img src="IMG/twitter.png" alt="Twitter"></a>
-    <a href=""><img src="IMG/instagram.png" alt="Instagram"></a>
-    </div>
-  </footer>
-
+        <div class="F-texto"><p>Copyright© 2024</p></div>
+    
+        <div class="Redes">
+          <a href=""><img src="IMG/facebook.png" alt="Facebook"></a>
+          <a href=""><img src="IMG/twitter.png" alt="Twitter"></a>
+        <a href=""><img src="IMG/instagram.png" alt="Instagram"></a>
+        </div>
+      </footer>
 </body>
 </html>
