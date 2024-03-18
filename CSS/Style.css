@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 10%;
+    background-color: #1B222C;
+  }
+  
+  nav {
+    font-family: Arial, sans-serif;
+    background-color: #3C4557;
+    height: 10%;
+    width: 100%;
+    background-image: url('../IMG/icon.png');
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 3%) center;
+    margin-bottom:10%; 
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 80px;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+    padding: 21px 20px;
+    font-size: 36px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+
+  
+
+  .Contenedor {
+    display: flex;
+    background-color: #3C4557;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px auto 0; 
+    width: 60%; 
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .img {
+    width: 40%;
+    height: 100%; 
+    border-radius: 20px;
+  }
+  
+  .Texto {
+    flex: 1;
+    padding: 55px;
+    font-size: 30px;
+    font-family: Arial;
+    text-align: center;
+    color: #ffff;
+  }
+
+footer {
+    background-color: #555;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+  }
+  
+  .F-texto, .Redes {
+    flex: 1; 
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .Redes img {
+    width: 50px;
+    margin: 0 10px; 
+  }
+  
