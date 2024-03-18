@@ -25,5 +25,6 @@ Para poder observar la planificación en la Plataforma Notion
 https://www.notion.so/Proyecto-de-C-tedra-DAW-46978ba9aefb4411922a79e22ff3ded5?pvs=4
 
 Documento PDF:
+[Proyecto_Avance#1_DAW_G01Te.pdf](https://github.com/PaolaC4lles/Proyecto-DAWG01T/files/14631123/Proyecto_Avance.1_DAW_G01Te.pdf)
 
-[Proyecto_Avance#1_DAW_G01T.pdf](https://github.com/PaolaC4lles/Proyecto-DAWG01T/files/14630986/Proyecto_Avance.1_DAW_G01T.pdf)
+
