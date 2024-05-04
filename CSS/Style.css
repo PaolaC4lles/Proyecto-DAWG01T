@@ -70,6 +70,13 @@ body {
     color: #ffff;
   }
 
+  
+.Contenedor .Texto a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 15px;
+}
+
 /* Calculadora */
 .titulo{
   padding-top: 50px;
@@ -314,3 +321,66 @@ h2{
 }
 
 /*  Rutina */
+
+/*Pagina de Alimentos*/
+
+.Food{
+margin-top:3%;
+width: 100%;
+}
+
+.Comida{
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centrar verticalmente */
+}
+
+.ContComida {
+  display: flex; /* Contenedor flexible */
+  align-items: center; /* Centrar verticalmente */
+  margin-bottom: 20px; /* Espacio entre contenedores */
+  max-width: 60%; /* Ancho máximo del contenedor */
+}
+
+.ImgComida{
+  margin-right: 20px; /* Espacio a la derecha de la imagen */
+}
+
+.ContComida img{
+  width: 20%;
+  height: 10%;
+  border-radius: 15px;
+}
+
+.ContComida P{
+  font-size: 30px;
+  color: #ffff;
+  text-align: justify;
+}
+
+.FootComida {
+  background-color: #555;
+  color: white;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5.5%;
+}
+
+.F-texto2, .Redes2 {
+  padding-top: 1%;
+  flex: 1; 
+  text-align: center;
+  font-size: 30px;
+}
+
+.Redes2 img {
+  padding-top: 1%;
+  width: 50px;
+  margin: 0 20px; 
+  
+}
+/*Fin pag de Alimentos*/
