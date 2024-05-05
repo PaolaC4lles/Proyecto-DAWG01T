@@ -1,3 +1,24 @@
+<?php
+            session_start();
+
+        if(!isset($_SESSION['usuario'])){
+            echo'
+            
+            <script>
+            alert("Por favor debes iniciar sesión");
+            window.location ="Index.php"
+            </script> 
+            ';
+            session_destroy();
+            die();
+        
+        };
+
+      // session_destroy();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -15,14 +36,13 @@
 
   <header>
     <img class="logo" src="img/icon.png" alt="¡Cuida tu salud!">
-    <ul class="navbar">
-        <li><a href="login.html">login</a></li>
-    </ul>
 
     <ul class="navbar">
-      <li><a href="calculadora.html">Calculadora IMC</a></li>
+      <li><a href="calculadora.php">Calculadora IMC</a></li>
   </ul>
-
+  <ul class="navbar">
+     <li><a href="php/cerrar_sesion.php">Cerrar Sesión</a></li>
+     </ul>
     <div class="main">
         <div class="bx bx-menu" id="menu-icon"></div><br>
     </div>
@@ -37,7 +57,7 @@
         <img src="IMG/img-1.jpeg" class="img">
         <div class="Texto">
             <p>Conoce los alimento que te ayudaran a mantener tu salud.</p>
-            <a href="Alimentos.html">Entra y mira un par de opciones de como combinarlos</a>
+            <a href="Alimentos.php">Entra y mira un par de opciones de como combinarlos</a>
         </div>
       </div>
 
@@ -50,10 +70,9 @@
         <div class="Texto">
             <p>Aprende a ejercitarte con estas rutinas
                 ¡Porque verse bien nunca pasa de moda!.</p>
-                <a href="Ejercicio.html">¿Por que es importante el ejercicio? Entra aqui</a>
+                <a href="Ejercicio.php">¿Por que es importante el ejercicio? Entra aqui</a>
         </div>
       </div>
-     
       <footer>
         
         <div class="F-texto"><p>Copyright© 2024</p></div>

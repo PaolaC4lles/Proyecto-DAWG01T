@@ -18,8 +18,11 @@
     <header>
         <img class="logo" src="img/icon.png" alt="¡Cuida tu salud!">
         <ul class="navbar">
-            <li><a href="Inicio.html">Inicio</a></li>
-        </ul>
+          <li><a href="Inicio.php">Inicio</a></li>
+      </ul>
+    <ul class="navbar">
+          <li><a href="php/cerrar_sesion.php">Cerrar Sesión</a></li>
+         </ul>
 
         <div class="main">
             <div class="bx bx-menu" id="menu-icon"></div><br>
