@@ -20,8 +20,8 @@
             <li><a href="Inicio.php">Inicio</a></li>
         </ul>
         <ul class="navbar">
-    <li><a href="php/cerrar_sesion.php">Cerrar Sesión</a></li>
-    </ul>
+            <li><a href="php/cerrar_sesion.php">Cerrar Sesión</a></li>
+        </ul>
 
         <div class="main">
             <div class="bx bx-menu" id="menu-icon"></div><br>
@@ -101,10 +101,10 @@
                 <button class="boton1">Enlaces de interés:</button>
             </td>
             <tr>
-                <td><a href="dieta.html"><button class="boton2">Conocer mi dieta personalizada</button></a></td>
+                <td><a href="dieta.php"><button class="boton2">Conocer mi dieta personalizada</button></a></td>
             </tr>
             <tr>
-                <td><a href="PaginaRutina.html"><button class="boton2">Conocer mi rutina de ejercicios personalizada</button></a></td>
+                <td><a href="rutina.php"><button class="boton2">Conocer mi rutina de ejercicios personalizada</button></a></td>
             </tr>
         </table>
 

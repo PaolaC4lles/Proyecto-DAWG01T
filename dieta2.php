@@ -16,12 +16,11 @@
 <header>
     <img class="logo" src="img/icon.png" alt="¡Cuida tu salud!">
     <ul class="navbar">
-        <li><a href="Inicio.html">Inicio</a></li>
-    </ul>
-
-    <ul class="navbar">
-      <li><a href="calculadora.html">Regresar</a></li>
-  </ul>
+        <li><a href="Inicio.php">Inicio</a></li>
+        </ul>
+        <ul class="navbar">
+            <li><a href="calculadora.php">Regresar</a></li>
+        </ul>
 
     <div class="main">
         <div class="bx bx-menu" id="menu-icon"></div><br>
@@ -43,13 +42,13 @@
     <div class="desplegable">
     <button class="boton">ESCOGE TU DIETA</button>
     <div class="dietas">
-        <a href="dieta.html">Delgadez muy severa</a>
-        <a href="dieta2.html">Delgadez severa</a>
-        <a href="dieta3.html">Delgadez</a>
-        <a href="dieta4.html">Peso saludable</a>
-        <a href="dieta5.html">Sobrepeso</a>
-        <a href="dieta6.html">Obesidad severa</a>
-        <a href="dieta7.html">Obesidad morbida</a>
+        <a href="dieta.php">Delgadez muy severa</a>
+        <a href="dieta2.php">Delgadez severa</a>
+        <a href="dieta3.php">Delgadez</a>
+        <a href="dieta4.php">Peso saludable</a>
+        <a href="dieta5.php">Sobrepeso</a>
+        <a href="dieta6.php">Obesidad severa</a>
+        <a href="dieta7.php">Obesidad morbida</a>
 </div>
 </div>
    </div>
