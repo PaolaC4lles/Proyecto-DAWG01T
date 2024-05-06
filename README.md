@@ -1,6 +1,5 @@
 
 
-
 # Proyecto-DAWG01T
 
 Integrantes:
@@ -30,5 +29,9 @@ https://www.notion.so/Proyecto-de-C-tedra-DAW-46978ba9aefb4411922a79e22ff3ded5?p
 Documento PDF:
 
 [Proyecto_Avance#1_DAW_G01T.pdf](https://github.com/PaolaC4lles/Proyecto-DAWG01T/files/14631146/Proyecto_Avance.1_DAW_G01T.pdf)
+
+Manual de usuario
+
+[Manual de usuario.pdf](https://github.com/PaolaC4lles/Proyecto-DAWG01T/files/15217118/Manual.de.usuario.pdf)
 
 
