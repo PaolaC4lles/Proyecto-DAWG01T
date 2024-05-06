@@ -36,4 +36,6 @@ Manual de usuario:
 
 Manual Tecnico:
 
+[Manual Tecnico.pdf](https://github.com/PaolaC4lles/Proyecto-DAWG01T/files/15217161/Manual.Tecnico.pdf)
+
 
