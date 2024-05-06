@@ -30,8 +30,10 @@ Documento PDF:
 
 [Proyecto_Avance#1_DAW_G01T.pdf](https://github.com/PaolaC4lles/Proyecto-DAWG01T/files/14631146/Proyecto_Avance.1_DAW_G01T.pdf)
 
-Manual de usuario
+Manual de usuario:
 
 [Manual de usuario.pdf](https://github.com/PaolaC4lles/Proyecto-DAWG01T/files/15217118/Manual.de.usuario.pdf)
+
+Manual Tecnico:
 
 
