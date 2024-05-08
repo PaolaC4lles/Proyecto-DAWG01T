@@ -1,3 +1,23 @@
+<?php
+            session_start();
+
+        if(!isset($_SESSION['usuario'])){
+            echo'
+            
+            <script>
+            alert("Por favor debes iniciar sesión");
+            window.location ="Index.php"
+            </script> 
+            ';
+            session_destroy();
+            die();
+        
+        };
+
+      // session_destroy();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
